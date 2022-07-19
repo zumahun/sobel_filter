@@ -1,0 +1,70 @@
+$date
+	Sun Jul 17 19:53:20 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module rgb_to_grayscale_tb $end
+$var wire 8 ! grayscale_o [7:0] $end
+$var wire 1 " done_o $end
+$var reg 8 # blue_i [7:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % done_i $end
+$var reg 8 & green_i [7:0] $end
+$var reg 8 ' red_i [7:0] $end
+$var reg 1 ( rst $end
+$scope module RGB_TO_GRAYSCALE $end
+$var wire 8 ) blue_i [7:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % done_i $end
+$var wire 8 * green_i [7:0] $end
+$var wire 8 + red_i [7:0] $end
+$var wire 1 ( rst $end
+$var reg 1 " done_o $end
+$var reg 8 , grayscale_o [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+b0 +
+b0 *
+b0 )
+1(
+b0 '
+b0 &
+0%
+1$
+b0 #
+0"
+b0 !
+$end
+#10
+1%
+b10000 #
+b10000 )
+b10 &
+b10 *
+b100 '
+b100 +
+0(
+0$
+#20
+1"
+b11 !
+b11 ,
+1$
+#30
+0%
+0$
+#40
+0"
+b0 !
+b0 ,
+1$
+#50
+0$
